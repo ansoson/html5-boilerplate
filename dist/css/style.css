@@ -15,7 +15,85 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  background: #d3dfd7;
 }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #282c34;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 1em;
+
+}
+
+.spacer {
+  padding: 5em;
+}
+
+.titleFeature {
+  margin: 1em;
+  color: #d3dfd7;
+  alignment: center;
+  font-size: 2em;
+}
+
+.infoBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 3em;
+  background: white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  height: 33em;
+  margin: 1em 6em 2em;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+  padding-left: 3em;
+}
+
+.body {
+  background: linear-gradient(whitesmoke, #d3dfd7);
+}
+
+.textItems {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.regularText {
+  color: #282c34;
+  align-self: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  align-self: center;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+.divisor {
+  font-size: 2em;
+  text-decoration: underline;
+}
+
 
 /*
  * Remove text-shadow in selection highlight:
